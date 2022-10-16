@@ -33,7 +33,7 @@ body::after {
   margin:0 auto;
 
   position: absolute;
-  z-index: -2;
+  z-index: -3;
 
   background: url('design/desktop-design.jpg');
   background-size: contain;
@@ -55,10 +55,18 @@ body::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin:0 auto;
   }
 
+  .hero{
+    background-color: hsl(197, 100%, 96%);;
+    width: 100%;
+
+    opacity: .6;
+  }
   .menu{
-    width: 87vw;
+    padding: 0 5rem;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +84,7 @@ body::after {
   .button .btn{
 
 
-    /* opacity: .5; */
+    opacity: .5;
 
     text-decoration: none;
     padding:.75rem 3.4rem;
@@ -88,6 +96,23 @@ body::after {
     font-weight: 700;
 
     box-shadow: 0 0 10px rgba(0,0,0,.12);
+  }
+
+  .hero-main{
+    display:flex;
+    align-items: center;
+  }
+
+  .hero-main > *{
+    flex:1;
+  }
+
+  .hero-main .left{
+    padding: 2rem 3rem;
+  }
+
+  .hero-main .right img {
+    width:100%;
   }
 
 
