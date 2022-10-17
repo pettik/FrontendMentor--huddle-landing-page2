@@ -60,8 +60,6 @@ body::after {
 .hero {
   background-color: hsl(197, 100%, 96%);
   width: 100%;
-
-  opacity: 0.6;
 }
 .menu {
   padding: 0 5rem;
@@ -94,7 +92,8 @@ body::after {
 
 .hero-main {
   display: flex;
-  /* align-items: center; */
+  margin-bottom: 2.5rem;
+  align-items: center;
 }
 
 .hero-main > * {
@@ -103,17 +102,17 @@ body::after {
 
 .hero-main .left {
   flex: 1.5;
-  padding: 5.5rem 3rem 0 5rem;
-  line-height: 1.5;
+  padding: 0 3rem 0 5rem;
+  line-height: 1.45;
 }
 
 .left h1 {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.4rem;
 }
 
 .left p {
   font-size: 0.98rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.2rem;
 }
 
 .btn.btn-ping {
@@ -127,7 +126,40 @@ body::after {
 }
 
 .hero-main .right img {
-  width: 100%;
+  width: 98%;
+}
+
+/* GROW TOGETHER SECTION */
+.grow-together {
+  display: flex;
+
+  margin-top: 9.3rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  max-width: 67rem;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.grow-together .left {
+  padding-left: 6.5rem;
+  padding-top: 8rem;
+}
+
+.grow-together p {
+  padding-right: 4rem;
+  line-height: 1.5;
+}
+
+.grow-together h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  padding-top: 0.4rem;
+}
+
+.grow-together .right img {
+  width: 80%;
+  margin: 2rem 0 3.5rem 4rem;
 }
 
 .attribution {
