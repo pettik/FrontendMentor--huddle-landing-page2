@@ -129,11 +129,21 @@ body::after {
   width: 98%;
 }
 
+/* ********************** */
 /* GROW TOGETHER SECTION */
+/* ********************** */
 .grow-together {
+  margin-top: 9.3rem;
+}
+.your-users {
+  margin-top: 2.6rem;
+  padding-bottom: 1rem;
+}
+
+.grow-together,
+.your-users {
   display: flex;
 
-  margin-top: 9.3rem;
   background-color: #fff;
   border-radius: 0.5rem;
   max-width: 67rem;
@@ -141,25 +151,64 @@ body::after {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.grow-together .left {
+.grow-together .left,
+.your-users .left {
   padding-left: 6.5rem;
   padding-top: 8rem;
 }
 
-.grow-together p {
-  padding-right: 4rem;
+.grow-together p,
+.your-users p {
+  padding-right: 6rem;
   line-height: 1.5;
 }
 
-.grow-together h2 {
-  margin-bottom: 1rem;
+.grow-together h2,
+.your-users h2 {
+  margin-bottom: 0.8rem;
   font-size: 1.6rem;
   padding-top: 0.4rem;
 }
 
-.grow-together .right img {
+.grow-together .right img,
+.your-users .right img {
   width: 80%;
-  margin: 2rem 0 3.5rem 4rem;
+  margin: 3rem 0 2.5rem 4rem;
+}
+
+/* ********************** */
+/* FLOWING COVERSATION SECTION */
+/* ********************** */
+.flowing-conversation {
+  display: flex;
+
+  margin-top: 1.8rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  max-width: 67rem;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 3rem;
+}
+
+.flowing-conversation .left {
+  padding-top: 8.5rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
+}
+
+.flowing-conversation h2 {
+  margin-bottom: 0.8rem;
+}
+
+.flowing-conversation .right {
+  order: -1;
+}
+
+.flowing-conversation .right img {
+  padding-top: 4.5rem;
+  padding-left: 5rem;
+  width: 80%;
 }
 
 .attribution {
