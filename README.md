@@ -14,3 +14,8 @@ Thanks for checking out this front-end coding challenge.
 ## The challenge
 
 This challenge is to build out this landing page and get it looking as close to the design as possible.
+
+
+# UPDATE 19TH OCTOBER 2022 - except FOOTER, all sections done 💪
+
+<img src="19thOct22.jpeg">
