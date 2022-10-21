@@ -44,12 +44,10 @@ body {
   opacity: .8
 } */
 
-
 .heading {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
-
 
 .container {
   max-width: 80rem;
@@ -97,6 +95,7 @@ body {
   font-weight: 700;
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+  transition: background 0.4s, color 0.3s;
 }
 
 .hero-main {
@@ -269,9 +268,7 @@ footer {
   padding: 10.5rem 7.3rem 0 0;
 
   width: 100vw;
-  background:#00252e;
-
-
+  background: #00252e;
 }
 
 .st-row {
@@ -291,21 +288,18 @@ footer {
   margin-bottom: 1rem;
 }
 
-
-
 .footer-container ul {
   list-style: none;
 }
 .footer-container ul li a {
   text-decoration: none;
   color: #fff;
-
 }
 
-.col-1{
- width: 20rem;
- margin-right: 7.65rem;
- margin-left: 11rem;
+.col-1 {
+  width: 20rem;
+  margin-right: 7.65rem;
+  margin-left: 11rem;
 }
 
 .col-1-data {
@@ -321,36 +315,38 @@ footer {
   margin-right: 1.1rem;
 }
 
-.col-1-data img{
+.col-1-data img {
   height: 14px;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
   margin-right: 1.1rem;
 }
 
-.col-1-data p{
+.col-1-data p {
   line-height: 1.5;
 }
 
-.col-2, .col-3{
+.col-2,
+.col-3 {
   font-size: 1rem;
   margin-right: 6.5rem;
 }
 
-.col-2 li, .col-3 li{
-  margin-bottom: 1rem
+.col-2 li,
+.col-3 li {
+  margin-bottom: 1rem;
 }
 
-.col-4{
-margin-left: 1.8rem;
-width: 10rem;
+.col-4 {
+  margin-left: 1.8rem;
+  width: 10rem;
 }
-.col-4 a{
-color: #fff;
+.col-4 a {
+  color: #fff;
 }
 
-.icona{
+.icona {
   margin-right: 1.5rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
 
   display: inline-block;
   margin: 2%;
@@ -359,23 +355,48 @@ color: #fff;
   padding: 12px;
   width: 12px;
   height: 12px;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   position: relative;
   transition: all 0.1s;
 }
 
-.icona a{
+.icona a {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-footer .copy{
+footer .copy {
   width: 100%;
   text-align: right;
   padding-right: 9rem;
-  font-size: .68rem;
+  font-size: 0.68rem;
 
   margin-bottom: 3.5rem;
+}
+
+@media (hover: hover) {
+  /* when hover is supported */
+  .button a.btn:hover {
+    color: rgb(124, 133, 142);
+  }
+
+  .btn-ping:hover {
+    background: rgb(255, 155, 219);
+  }
+
+  .col-2 ul li a:hover,
+  .col-3 ul li a:hover {
+    border-bottom: 0.2px solid #fff;
+    padding-bottom: 0.2px;
+  }
+
+  .icona:hover a {
+    color: var(--pink);
+  }
+
+  .icona:hover {
+    border-color: var(--pink);
+  }
 }
