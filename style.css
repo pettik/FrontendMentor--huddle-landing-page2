@@ -50,8 +50,7 @@ body {
 }
 
 .container {
-  max-width: 80rem;
-  padding: 4rem auto 0;
+  width: 100vw;
 
   display: flex;
   flex-direction: column;
@@ -62,18 +61,19 @@ body {
 }
 
 .hero {
-  width: 100%;
+  width: 100vw;
 
   background: url(images/bg-hero-desktop.svg), hsl(197, 100%, 96%);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .menu {
+  max-width: 80rem;
   padding: 0 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3.1rem 0;
+  margin: 3.1rem auto;
 }
 
 .menu .logo {
@@ -99,6 +99,8 @@ body {
 }
 
 .hero-main {
+  max-width: 80rem;
+  margin: 0 auto;
   display: flex;
   margin-bottom: 2.5rem;
   align-items: center;
@@ -277,6 +279,7 @@ footer {
 }
 
 .st-row img {
+  -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
   align-self: left;
   width: 205px;
@@ -382,9 +385,9 @@ footer .copy {
     color: rgb(124, 133, 142);
   }
 
-   a.btn.btn-ping:hover {
+  a.btn.btn-ping:hover {
     background: rgb(255, 155, 219);
-    color:#fff;
+    color: #fff;
   }
 
   .col-2 ul li a:hover,
@@ -402,69 +405,68 @@ footer .copy {
   }
 }
 
-@media screen and (max-width: 768px){
- body{
-  width: 100vw;
- }
-  .container{
-    width: 768px;
- }
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    max-width: 100vw;
+  }
 
- .hero{
-  background:url(images/bg-hero-mobile.svg), hsl(197, 100%, 96%);
-background-repeat: no-repeat;
-background-size:contain;
-background-position: top;
- }
+  .hero {
+    background: url(images/bg-hero-mobile.svg), hsl(197, 100%, 96%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
 
- .hero .menu{
- padding: 0 2rem;
- }
+  .hero .menu {
+    padding: 0 2rem;
+  }
 
- .menu .button .btn{
-  font-size: 1.2rem;
- }
+  .menu .button .btn {
+    font-size: 1.2rem;
+  }
 
- .hero-main{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- }
+  .hero-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
- .hero-main .left h1{
-  margin-top: 7rem;
-  margin-bottom: 2.5rem;
-  padding: 0 2rem;
-  text-align: center;
-  font-size: 3rem;
- }
+  .hero-main .left h1 {
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 3rem;
+  }
 
- .hero p{
-  font-size: 2rem;
-  padding: 0 1rem;
-  text-align: center;
-  margin-bottom: 5rem;
- }
+  .hero p {
+    font-size: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
 
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-main .btn-ping {
+    font-size: 1.5rem;
+    padding: 1.5rem 7rem;
+    margin-bottom: 7rem;
+  }
 
- .button{
-  display:flex;
-  justify-content: center;
- }
- .hero-main .btn-ping{
-  font-size: 1.5rem;
-  padding:1.5rem 7rem;
-  margin-bottom: 7rem;
- }
+  .hero-main .right {
+    padding: 0 4rem;
+    flex: auto;
+  }
 
- .hero-main .right{
-  padding:0 4rem;
-  flex:auto;
- }
-
- .right img{
-  width: 100%;
-  padding: 0;
-  margin-bottom: 2rem;
- }
+  .right img {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
 }
