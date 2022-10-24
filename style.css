@@ -77,6 +77,24 @@ body {
   width: 120px;
 }
 
+.hero-main .left {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-main .left h1 {
+  text-align: center;
+}
+
+.hero-main .right {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-main .right img {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     display: flex;
@@ -103,8 +121,8 @@ body {
     width: 11rem;
   }
 
-  .menu .logo img {
-    width: 100%;
+  .hero .menu .logo img {
+    width: 220px;
   }
 
   .btn {
@@ -131,8 +149,9 @@ body {
     line-height: 1.45;
   }
 
-  .left h1 {
+  .hero-main .left h1 {
     margin-bottom: 1.4rem;
+    text-align: left;
   }
 
   .left p {
