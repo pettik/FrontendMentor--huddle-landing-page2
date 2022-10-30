@@ -1,4 +1,3 @@
-# UNDERCONSTRUCTION ⚠️ 12th of October 2022 starting -> 
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
@@ -25,4 +24,4 @@ This challenge is to build out this landing page and get it looking as close to 
 <img src="20thOct22.png">
 
 # MOBILE VIEW 📱⬇️
-<img src="mobile-view.png">
+<img src="mobile-view.png" width="300px">
