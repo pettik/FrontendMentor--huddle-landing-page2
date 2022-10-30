@@ -21,7 +21,7 @@ This challenge is to build out this landing page and get it looking as close to 
 3) mobile queires - missing ✅
 
 # DESKTOP VIEW 🖥️⬇️
-<img src="20thOct22.png">
+<img src="desktop-view.png">
 
 # MOBILE VIEW 📱⬇️
 <img src="mobile-view.png" width="300px">
