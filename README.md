@@ -19,6 +19,10 @@ This challenge is to build out this landing page and get it looking as close to 
 # UPDATE 21st OCTOBER 2022
 1) all sections - done ✅ 
 2) hover effects - done ✅
-3) mobile queires - missing ❌
+3) mobile queires - missing ✅
 
+# DESKTOP VIEW 🖥️⬇️
 <img src="20thOct22.png">
+
+# MOBILE VIEW 📱⬇️
+<img src="mobile-view.png">
